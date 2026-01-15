@@ -1,3 +1,7 @@
+[![HH](https://img.shields.io/badge/HH-Resume-red)](https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://linkedin.com/in/kamil-velikiy)
+[![Telegram](https://img.shields.io/badge/Telegram-@foreach_dump-2CA5E0)](https://t.me/foreach_dump)
+
 # Кямиль (Raphailinc) — Python Backend / Fullstack
 
 Python Backend / Fullstack-разработчик с 2+ годами коммерческого опыта: highload B2B-сервисы и внутренние порталы.  
@@ -7,9 +11,7 @@ Python Backend / Fullstack-разработчик с 2+ годами комме�
 **Стек:** Python (FastAPI, Django, Flask), PostgreSQL, Docker, CI/CD, Linux, Celery/Redis, React/JS.
 
 **Контакты:**  
-- HH: https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474  
-- LinkedIn: https://linkedin.com/in/kamil-velikiy  
-- Telegram: https://t.me/foreach_dump
+Портфолио/сайт: https://sferahub.ru
 
 ---
 
