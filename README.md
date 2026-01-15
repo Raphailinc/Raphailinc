@@ -1,16 +1,40 @@
-## Hi there 👋
+# Кямиль (Raphailinc) — Python Backend / Fullstack
 
-<!--
-**Raphailinc/Raphailinc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Python Backend / Fullstack-разработчик с 2+ годами коммерческого опыта: highload B2B-сервисы и внутренние порталы.  
+Фокус: API, асинхронщина, оптимизация SQL/производительности, предсказуемые продакшен-решения.  
+Ищу удалённую частичную занятость / проектную работу (20–30 ч/нед) с ответственностью за результат.
 
-Here are some ideas to get you started:
+**Стек:** Python (FastAPI, Django, Flask), PostgreSQL, Docker, CI/CD, Linux, Celery/Redis, React/JS.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Контакты:**  
+- HH: https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474  
+- LinkedIn: https://linkedin.com/in/kamil-velikiy  
+- Telegram: https://t.me/foreach_dump
+
+---
+
+## Закреплённые проекты
+
+### 1) altpkg-diff
+CLI + библиотека для сравнения бинарных пакетов ALT Linux между ветками: параллельная загрузка, ретраи, отчёты JSON/summary/Markdown, режим для CI.  
+Repo: https://github.com/Raphailinc/altpkg-diff
+
+### 2) Task Delay Service
+Сервис рассылок на Django + DRF + Celery: фильтрация клиентов, контроль временных окон, docker-compose (Postgres/Redis/worker), pytest.  
+Repo: https://github.com/Raphailinc/Task-Delay-Service
+
+### 3) Pulse
+Мини-соцсеть на Flask: безопасные загрузки изображений, API `/api/posts`, поиск/пагинация, pytest.  
+Repo: https://github.com/Raphailinc/Pulse
+
+### 4) Car-API
+Flask CRUD API по автомобилям: валидация Marshmallow, конфиг через `.env`, SQLite по умолчанию, тесты pytest.  
+Repo: https://github.com/Raphailinc/Car-API
+
+### 5) Micro Video Hosting
+Мини-видеохостинг на SvelteKit + SQLite: загрузка видео, теги, выдача/пагинация по тегам, file-based endpoints.  
+Repo: https://github.com/Raphailinc/Micro-Video-Hosting
+
+### 6) Mars Lab Project
+Express + MongoDB + React: отправка отчётов, загрузка файла, список отчётов, API `/api/...`.  
+Repo: https://github.com/Raphailinc/Mars-Lab-Project
