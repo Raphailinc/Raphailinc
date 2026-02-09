@@ -2,6 +2,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://linkedin.com/in/kamil-velikiy)
 [![Telegram](https://img.shields.io/badge/Telegram-@foreach_dump-2CA5E0)](https://t.me/foreach_dump)
 
+[English](README.md) | [Русский](README.ru.md)
+
 # 👋 Hi, I’m Kamil Velikiy
 
 **Python Backend / Fullstack Engineer**  
