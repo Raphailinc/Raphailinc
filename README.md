@@ -2,41 +2,75 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://linkedin.com/in/kamil-velikiy)
 [![Telegram](https://img.shields.io/badge/Telegram-@foreach_dump-2CA5E0)](https://t.me/foreach_dump)
 
-# Кямиль (Raphailinc) — Python Backend / Fullstack
+# 👋 Hi, I’m Kamil Velikiy
 
-Python Backend / Fullstack-разработчик с 2+ годами коммерческого опыта: highload B2B-сервисы и внутренние порталы.  
-Фокус: API, асинхронщина, оптимизация SQL/производительности, предсказуемые продакшен-решения.  
-Ищу удалённую частичную занятость / проектную работу (20–30 ч/нед) с ответственностью за результат.
+**Python Backend / Fullstack Engineer**  
+FastAPI · Django · PostgreSQL · Highload B2B / SaaS · Production Systems
 
-**Стек:** Python (FastAPI, Django, Flask), PostgreSQL, Docker, CI/CD, Linux, Celery/Redis, React/JS.
+I’m a backend-focused engineer with 2+ years of commercial experience building and maintaining highload B2B services and internal business platforms used in production.
 
-**Контакты:**  
-Портфолио/сайт: https://sferahub.ru
+My primary focus is backend architecture, performance, and system reliability — especially in systems with complex business logic and large data volumes.
 
----
+I’m comfortable working autonomously, taking full ownership of tasks, and delivering predictable, production-ready results.
 
-## Закреплённые проекты
+## 🧠 Core Expertise
 
-### 1) altpkg-diff
-CLI + библиотека для сравнения бинарных пакетов ALT Linux между ветками: параллельная загрузка, ретраи, отчёты JSON/summary/Markdown, режим для CI.  
-Repo: https://github.com/Raphailinc/altpkg-diff
+- Backend architecture and API design (FastAPI, Django)
+- SQL optimization and asynchronous/background processing
+- Highload and data-intensive production systems
+- Long-term support and refactoring of legacy codebases
+- Working with complex business logic and critical business workflows
 
-### 2) Task Delay Service
-Сервис рассылок на Django + DRF + Celery: фильтрация клиентов, контроль временных окон, docker-compose (Postgres/Redis/worker), pytest.  
-Repo: https://github.com/Raphailinc/Task-Delay-Service
+## 🛠 Tech Stack
 
-### 3) Pulse
-Мини-соцсеть на Flask: безопасные загрузки изображений, API `/api/posts`, поиск/пагинация, pytest.  
-Repo: https://github.com/Raphailinc/Pulse
+**Backend**
+- Python, FastAPI, Django, Flask
+- REST APIs, Celery (background jobs), async processing
 
-### 4) Car-API
-Flask CRUD API по автомобилям: валидация Marshmallow, конфиг через `.env`, SQLite по умолчанию, тесты pytest.  
-Repo: https://github.com/Raphailinc/Car-API
+**Databases**
+- PostgreSQL
+- SQL optimization and performance tuning
 
-### 5) Micro Video Hosting
-Мини-видеохостинг на SvelteKit + SQLite: загрузка видео, теги, выдача/пагинация по тегам, file-based endpoints.  
-Repo: https://github.com/Raphailinc/Micro-Video-Hosting
+**DevOps / Infrastructure**
+- Docker, Docker Compose
+- CI/CD pipelines
+- Linux environments
 
-### 6) Mars Lab Project
-Express + MongoDB + React: отправка отчётов, загрузка файла, список отчётов, API `/api/...`.  
-Repo: https://github.com/Raphailinc/Mars-Lab-Project
+**Frontend (as needed)**
+- React, JavaScript, HTML, CSS
+
+## 📌 Featured Projects
+
+Here are some projects that best represent my engineering approach and experience:
+
+- [altpkg-diff](https://github.com/Raphailinc/altpkg-diff) — production-ready CLI tool/library for comparing ALT Linux binary packages between branches (parallel downloads, retries, JSON/Markdown reports, CI mode).  
+  *(Python · CLI · Testing · CI/CD)*
+
+- [Task-Delay-Service](https://github.com/Raphailinc/Task-Delay-Service) — Django + DRF + Celery service for delayed/scheduled campaigns with filtering and time-window control (Docker Compose: Postgres/Redis/worker).  
+  *(Django · DRF · Celery · PostgreSQL · Redis · Docker)*
+
+- [Pulse](https://github.com/Raphailinc/Pulse) — Flask mini social network with clean API, safe media uploads, search/pagination, and Docker setup.  
+  *(Flask · PostgreSQL · Docker · Testing)*
+
+- [Car-API](https://github.com/Raphailinc/Car-API) — Flask CRUD API with Marshmallow validation, `.env` config, SQLite by default and PostgreSQL-ready, pytest + CI.  
+  *(Flask · SQL · REST · Testing · CI)*
+
+- [Micro-Video-Hosting](https://github.com/Raphailinc/Micro-Video-Hosting) — SvelteKit + SQLite mini video hosting (upload, tags, pagination).
+
+- [Mars-Lab-Project](https://github.com/Raphailinc/Mars-Lab-Project) — Express + MongoDB + React app for report submission and file uploads.
+
+## 🧩 What I Value in Engineering
+
+- Clean, maintainable code
+- Clear ownership and responsibility
+- Predictable behavior in production
+- Thoughtful trade-offs instead of over-engineering
+- Systems that are easy to support long-term
+
+## 📫 Contact & Links
+
+- GitHub: https://github.com/Raphailinc
+- LinkedIn: https://www.linkedin.com/in/kamil-velikiy
+- Telegram: https://t.me/foreach_dump
+- Personal site: https://sferahub.ru
+- HH (RU): https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474
