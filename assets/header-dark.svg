@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">Kamil Velikiy — Python Backend Engineer</title>
+<desc id="desc">APIs, business systems and integrations. FastAPI, Django REST Framework and PostgreSQL. Request validation and transactional commits.</desc>
+<defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#24394c" stroke-width=".5"/></pattern><linearGradient id="accent"><stop stop-color="#47d9c5"/><stop offset="1" stop-color="#b9eb74"/></linearGradient></defs>
+<rect width="1400" height="360" rx="20" fill="#0d1521"/><rect width="1400" height="360" rx="20" fill="url(#grid)"/>
+<rect x="44" y="48" width="5" height="264" rx="2.5" fill="url(#accent)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<text x="78" y="85" fill="#a8bacb" font-size="16" letter-spacing="3">APIs / BUSINESS SYSTEMS / INTEGRATIONS</text>
+<text x="76" y="164" fill="#eff6ff" font-size="62" font-weight="700" letter-spacing="-2">Kamil Velikiy</text>
+<text x="78" y="216" fill="#eff6ff" font-size="32" font-weight="500">Python Backend Engineer</text>
+<text x="78" y="282" fill="#a8bacb" font-size="21">FastAPI · Django / DRF · PostgreSQL</text>
+<text x="925" y="85" fill="#a8bacb" font-size="15" letter-spacing="2">OPERATION LIFECYCLE</text>
+<g fill="#0d1521" stroke="#24394c" stroke-width="2"><rect x="920" y="119" width="394" height="54" rx="10"/><rect x="920" y="189" width="394" height="54" rx="10"/><rect x="920" y="259" width="394" height="54" rx="10"/></g>
+<g fill="#eff6ff" font-size="20"><text x="947" y="153">01  Validate the request</text><text x="947" y="223">02  Apply business rules</text><text x="947" y="293">03  Commit atomically</text></g>
+<g fill="#47bca9"><circle cx="1286" cy="146" r="5"/><circle cx="1286" cy="216" r="5"/><circle cx="1286" cy="286" r="5"/></g>
+</g></svg>

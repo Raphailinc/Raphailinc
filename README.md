@@ -1,78 +1,55 @@
-[![HH](https://img.shields.io/badge/HH-Resume-red)](https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://linkedin.com/in/kamil-velikiy)
-[![Telegram](https://img.shields.io/badge/Telegram-@foreach_dump-2CA5E0)](https://t.me/foreach_dump)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Kamil Velikiy — Python Backend Engineer. FastAPI, Django REST Framework, PostgreSQL. APIs, business systems and integrations." src="assets/header-light.svg" width="1400">
+</picture>
 
-[English](README.md) | [Русский](README.ru.md)
+[English](README.md) · [Русский](README.ru.md)<br>
+[LinkedIn](https://www.linkedin.com/in/kamil-velikiy/) · [Telegram](https://t.me/foreach_dump) · [CV on hh.ru](https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474)
 
-# 👋 Hi, I’m Kamil Velikiy
+## Python backend for APIs and business systems
 
-**Python Backend / Fullstack Engineer**  
-FastAPI · Django · PostgreSQL · Highload B2B / SaaS · Production Systems
+I build Python APIs, integrations and background workflows, with **2+ years of commercial backend experience** in retail B2B platforms and a mobile MVP. My focus is data integrity: explicit business rules, safe retries, access control and tests around failure paths.
 
-I’m a backend-focused engineer with 2+ years of commercial experience building and maintaining highload B2B services and internal business platforms used in production.
+At **Basis IT**, I implemented operation locks and recovery, improved Keycloak registration and account reconciliation, and extended analytics APIs with indexed lookups and caching. At **Men In Dev**, I was the sole backend developer for a mobile MVP, from API and PostgreSQL design to integrations and launch support.
 
-My primary focus is backend architecture, performance, and system reliability — especially in systems with complex business logic and large data volumes.
+Based in **Moscow, Russia**. Currently working on independent projects; open to remote **Python backend** and **Python / React full-stack** roles.
 
-I’m comfortable working autonomously, taking full ownership of tasks, and delivering predictable, production-ready results.
+## Selected engineering work
 
-## 🧠 Core Expertise
+These case studies describe projects whose source repositories are maintained separately. Each explains the problem, implementation choices and testing scope.
 
-- Backend architecture and API design (FastAPI, Django)
-- SQL optimization and asynchronous/background processing
-- Highload and data-intensive production systems
-- Long-term support and refactoring of legacy codebases
-- Working with complex business logic and critical business workflows
+| Project | Engineering focus | Stack |
+| :--- | :--- | :--- |
+| **[Sfera](case-studies/sfera.md)** — personal learning and collaboration platform | Version-checked batch updates, object-level permissions, document history, import rollback and background exports | Django/DRF, FastAPI, PostgreSQL, Celery, React/TypeScript |
+| **[PDF Label Service](case-studies/pdf-label-service.md)** — local label-generation MVP | Transactional code reservation, duplicate prevention and explicit recovery after interrupted exports | FastAPI, SQLite, pypdf |
+| **[AI English Companion](case-studies/ai-english-companion.md)** — Telegram practice MVP | AI API integration, usage accounting and payment-event deduplication | Python, aiogram, SQLite, Pytest |
+| **[Ping](case-studies/ping.md)** — reminders and a personal workspace | Confirm-before-save reminders, persisted scheduling, owner-scoped data and backup/restore tooling | FastAPI, PostgreSQL, Docker, React/TypeScript |
 
-## 🛠 Tech Stack
+## Public code to explore
 
-**Backend**
-- Python, FastAPI, Django, Flask
-- REST APIs, Celery (background jobs), async processing
+Start with **[altpkg-diff](https://github.com/Raphailinc/altpkg-diff)** for Python library and CLI design, or **[Task Delay Service](https://github.com/Raphailinc/Task-Delay-Service)** for Django APIs and asynchronous jobs.
 
-**Databases**
-- PostgreSQL
-- SQL optimization and performance tuning
+| Repository | What to look at |
+| :--- | :--- |
+| [altpkg-diff](https://github.com/Raphailinc/altpkg-diff) | Parallel HTTP requests, retry policy, package comparison, JSON/Markdown reports and CLI exit codes |
+| [Task Delay Service](https://github.com/Raphailinc/Task-Delay-Service) | DRF validation, recipient filtering, timezone-aware scheduling and Celery tasks |
+| [Pulse](https://github.com/Raphailinc/Pulse) | Flask app factory, authentication, post ownership, uploads and API tests |
+| [Car API](https://github.com/Raphailinc/Car-API) | Marshmallow validation, VIN uniqueness, CRUD error handling and isolated database tests |
+| [Taskboard](https://github.com/Raphailinc/Taskboard) | Django models, forms, task filters and attachment handling |
+| [Document Detector](https://github.com/Raphailinc/Document-Detector) | OpenCV contour detection, perspective transforms and synthetic-image tests |
 
-**DevOps / Infrastructure**
-- Docker, Docker Compose
-- CI/CD pipelines
-- Linux environments
+These are focused portfolio and learning projects. Their READMEs cover setup, tests and scope.
 
-**Frontend (as needed)**
-- React, JavaScript, HTML, CSS
+## Tools I work with
 
-## 📌 Featured Projects
+**Backend:** Python, FastAPI, Django REST Framework, Flask, REST APIs.<br>
+**Data and jobs:** PostgreSQL, SQL, SQLite, Redis, Celery; Tarantool and Keycloak in commercial work.<br>
+**Delivery and verification:** Docker, Docker Compose, Git, CI/CD, Pytest.<br>
+**Across the interface:** React, TypeScript, JavaScript, API integration and error states.
 
-Here are some projects that best represent my engineering approach and experience:
+## Background and contact
 
-- [altpkg-diff](https://github.com/Raphailinc/altpkg-diff) — production-ready CLI tool/library for comparing ALT Linux binary packages between branches (parallel downloads, retries, JSON/Markdown reports, CI mode).  
-  *(Python · CLI · Testing · CI/CD)*
+IATE, National Research Nuclear University **MEPhI**: bachelor's degree in Information Systems and Technologies (2024), master's degree in Computer Science and Engineering (2026); postgraduate studies ongoing.
 
-- [Task-Delay-Service](https://github.com/Raphailinc/Task-Delay-Service) — Django + DRF + Celery service for delayed/scheduled campaigns with filtering and time-window control (Docker Compose: Postgres/Redis/worker).  
-  *(Django · DRF · Celery · PostgreSQL · Redis · Docker)*
-
-- [Pulse](https://github.com/Raphailinc/Pulse) — Flask mini social network with clean API, safe media uploads, search/pagination, and Docker setup.  
-  *(Flask · PostgreSQL · Docker · Testing)*
-
-- [Car-API](https://github.com/Raphailinc/Car-API) — Flask CRUD API with Marshmallow validation, `.env` config, SQLite by default and PostgreSQL-ready, pytest + CI.  
-  *(Flask · SQL · REST · Testing · CI)*
-
-- [Micro-Video-Hosting](https://github.com/Raphailinc/Micro-Video-Hosting) — SvelteKit + SQLite mini video hosting (upload, tags, pagination).
-
-- [Mars-Lab-Project](https://github.com/Raphailinc/Mars-Lab-Project) — Express + MongoDB + React app for report submission and file uploads.
-
-## 🧩 What I Value in Engineering
-
-- Clean, maintainable code
-- Clear ownership and responsibility
-- Predictable behavior in production
-- Thoughtful trade-offs instead of over-engineering
-- Systems that are easy to support long-term
-
-## 📫 Contact & Links
-
-- GitHub: https://github.com/Raphailinc
-- LinkedIn: https://www.linkedin.com/in/kamil-velikiy
-- Telegram: https://t.me/foreach_dump
-- Personal site: https://sferahub.ru
-- HH (RU): https://obninsk.hh.ru/resume/ca6f82d7ff0cf787bc0039ed1f50714c6a7474
+For roles, projects or a technical conversation: **[Telegram — @foreach_dump](https://t.me/foreach_dump)** or **[LinkedIn](https://www.linkedin.com/in/kamil-velikiy/)**.
