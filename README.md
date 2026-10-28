@@ -15,6 +15,8 @@ At **Basis IT**, I implemented operation locks and recovery, improved Keycloak r
 
 Based in **Moscow, Russia**. Currently working on independent projects; open to remote **Python backend** and **Python / React full-stack** roles.
 
+**[Engineering case studies](case-studies/README.md)** · **[Guide to the public code](PROJECTS.md)**
+
 ## Selected engineering work
 
 These case studies describe projects whose source repositories are maintained separately. Each explains the problem, implementation choices and testing scope.
