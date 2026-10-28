@@ -1,8 +1,8 @@
 # Public project guide
 
-[Profile](README.md) · [Engineering case studies](case-studies/README.md)
+[Profile](README.md) · [Русский](PROJECTS.ru.md) · [Engineering case studies](case-studies/README.md)
 
-For a Python backend review, start with the six pinned repositories. The remaining projects explore specific tools, languages and algorithms.
+For a Python backend review, start with the six pinned repositories. Try the [infrastructure-free campaign demo](https://github.com/Raphailinc/Task-Delay-Service#try-the-complete-flow-without-infrastructure), then read the [delivery design](https://github.com/Raphailinc/Task-Delay-Service/blob/main/docs/delivery-design.md). The remaining active projects explore specific tools, languages and algorithms.
 
 ## Python backend and libraries
 
@@ -32,16 +32,23 @@ For a Python backend review, start with the six pinned repositories. The remaini
 | :--- | :--- |
 | [Mars Lab Project](https://github.com/Raphailinc/Mars-Lab-Project) | Express/MongoDB report submission and React forms. |
 | [Micro Video Hosting](https://github.com/Raphailinc/Micro-Video-Hosting) | SvelteKit, SQLite, video uploads and tags. |
-| [Product Atlas](https://github.com/Raphailinc/Product-Atlas) | PHP JSON endpoints, a product catalog and reviews. |
 | [vprok parser test task](https://github.com/Raphailinc/vprok-parser-test-task) | Separate browser and API collection approaches. Live runs depend on the upstream site. |
 
-## Other languages and browser experiments
+## Other languages
 
 | Repository | Focus |
 | :--- | :--- |
 | [ToolOps](https://github.com/Raphailinc/ToolOps) | C++17 domain model, TSV persistence and tests. |
 | [Dice Duel](https://github.com/Raphailinc/Dice-Duel) | C++17 game rules, seeded simulation and tests. |
 | [ToDo CLI](https://github.com/Raphailinc/ToDo-CLI) | Java 17 task repository, SQLite and JUnit. |
+
+## Archived learning projects
+
+These early browser and PHP exercises are preserved as read-only learning history. They are separate from the active backend portfolio.
+
+| Repository | Focus |
+| :--- | :--- |
+| [Product Atlas](https://github.com/Raphailinc/Product-Atlas) | PHP JSON endpoints, a product catalog and reviews. |
 | [2D Net](https://github.com/Raphailinc/2D-Net) | Rubik's Cube move visualization. |
 | [Biomorph Playground](https://github.com/Raphailinc/Biomorph-Playground) | Generative forms and reproducible genomes. |
 | [Dragon Curve Playground](https://github.com/Raphailinc/Dragon-Curve-Playground) | Recursive geometry and SVG export. |

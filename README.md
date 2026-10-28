@@ -17,20 +17,11 @@ Based in **Moscow, Russia**. Currently working on independent projects; open to 
 
 **[Engineering case studies](case-studies/README.md)** · **[Guide to the public code](PROJECTS.md)**
 
-## Selected engineering work
-
-These case studies describe projects whose source repositories are maintained separately. Each explains the problem, implementation choices and testing scope.
-
-| Project | Engineering focus | Stack |
-| :--- | :--- | :--- |
-| **[Sfera](case-studies/sfera.md)** — personal learning and collaboration platform | Version-checked batch updates, object-level permissions, document history, import rollback and background exports | Django/DRF, FastAPI, PostgreSQL, Celery, React/TypeScript |
-| **[PDF Label Service](case-studies/pdf-label-service.md)** — local label-generation MVP | Transactional code reservation, duplicate prevention and explicit recovery after interrupted exports | FastAPI, SQLite, pypdf |
-| **[AI English Companion](case-studies/ai-english-companion.md)** — Telegram practice MVP | AI API integration, usage accounting and payment-event deduplication | Python, aiogram, SQLite, Pytest |
-| **[Ping](case-studies/ping.md)** — reminders and a personal workspace | Confirm-before-save reminders, persisted scheduling, owner-scoped data and backup/restore tooling | FastAPI, PostgreSQL, Docker, React/TypeScript |
-
 ## Public code to explore
 
 Start with **[altpkg-diff](https://github.com/Raphailinc/altpkg-diff)** for Python library and CLI design, or **[Task Delay Service](https://github.com/Raphailinc/Task-Delay-Service)** for Django APIs and asynchronous jobs.
+
+Try the [self-contained campaign demo](https://github.com/Raphailinc/Task-Delay-Service#try-the-complete-flow-without-infrastructure), then inspect its [delivery state machine and failure boundaries](https://github.com/Raphailinc/Task-Delay-Service/blob/main/docs/delivery-design.md). It exercises JWT, audience selection and simulated sending in a disposable database.
 
 | Repository | What to look at |
 | :--- | :--- |
@@ -42,6 +33,17 @@ Start with **[altpkg-diff](https://github.com/Raphailinc/altpkg-diff)** for Pyth
 | [Document Detector](https://github.com/Raphailinc/Document-Detector) | OpenCV contour detection, perspective transforms and synthetic-image tests |
 
 These are focused portfolio and learning projects. Their READMEs cover setup, tests and scope.
+
+## Selected engineering work
+
+These case studies describe projects whose source repositories are maintained separately. Each explains the problem, implementation choices and testing scope.
+
+| Project | Engineering focus | Stack |
+| :--- | :--- | :--- |
+| **[Sfera](case-studies/sfera.md)** — personal learning and collaboration platform | Version-checked batch updates, object-level permissions, document history, import rollback and background exports | Django/DRF, FastAPI, PostgreSQL, Celery, React/TypeScript |
+| **[PDF Label Service](case-studies/pdf-label-service.md)** — local label-generation MVP | Transactional code reservation, duplicate prevention and explicit recovery after interrupted exports | FastAPI, SQLite, pypdf |
+| **[AI English Companion](case-studies/ai-english-companion.md)** — Telegram practice MVP | AI API integration, usage accounting and payment-event deduplication | Python, aiogram, SQLite, Pytest |
+| **[Ping](case-studies/ping.md)** — reminders and a personal workspace | Confirm-before-save reminders, persisted scheduling, owner-scoped data and backup/restore tooling | FastAPI, PostgreSQL, Docker, React/TypeScript |
 
 ## Tools I work with
 
